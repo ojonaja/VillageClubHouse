@@ -1,5 +1,5 @@
 {
-  "name": "club-house",
+  "name": "village-club",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:ClubHouse": "node dist/club-house/server/server.mjs"
+    "serve:ssr:VillageClub": "node dist/village-club/server/server.mjs"
   },
   "private": true,
   "dependencies": {

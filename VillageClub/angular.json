@@ -3,9 +3,19 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ClubHouse": {
+    "VillageClub": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/club-house",
+            "outputPath": "dist/village-club",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -65,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ClubHouse:build:production"
+              "buildTarget": "VillageClub:build:production"
             },
             "development": {
-              "buildTarget": "ClubHouse:build:development"
+              "buildTarget": "VillageClub:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -101,6 +111,6 @@
     }
   },
   "cli": {
-    "analytics": "7f0a48e9-1a81-4447-a223-ced08925897c"
+    "analytics": "d6eccc53-a622-4d8e-9e4a-e985da419dc6"
   }
 }
