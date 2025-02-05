@@ -1,10 +1,34 @@
-<nav class="bg-red-800 text-white p-4 flex justify-between items-center">
-  <div class="text-x1 font-bold">MyWebsite</div>
-  <div class="space-x-4">
-    <a href="#" class="hover:text-gray-300">Home</a>
+<nav class="bg-gray-200 text-purple-400 p-4 flex justify-between items-center">
+  <!-- Logo -->
+  <img src="logoblackBandee.png" alt="error logo" class="w-32">
+
+  <!-- Navbar Links -->
+  <div class="space-x-4 flex items-center">
     <a href="/Service" class="hover:text-gray-300">Service</a>
-    <a href="/Status" class="hover:text-gray-300">Status </a>
-    <a href="/report" class="hover:text-gray-300">Report </a>
-    <a href="/aboutUs" class="hover:text-gray-300">About us </a>
+    <a href="/Status" class="hover:text-gray-300">Status</a>
+    <a href="/report" class="hover:text-gray-300">Report</a>
+
+   
+    <div class="relative group">
+      <button class="hover:text-gray-300 flex items-center">
+        About Us
+        <svg class="w-4 h-4 ml-1 transition-transform duration-300 group-hover:rotate-180"
+          fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </button>
+
+      
+      <div
+        class="absolute left-0 mt-2 w-40 bg-white shadow-lg rounded-lg ring-1 ring-gray-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
+        <div class="py-2 px-4 text-sm text-gray-700">create by BanDee team</div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="mr-5 flex space-x-3">
+    <span class="material-symbols-outlined">face</span>
+    <span class="material-symbols-outlined">menu</span>
   </div>
 </nav>
