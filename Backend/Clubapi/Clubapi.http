@@ -1,6 +1,6 @@
-@Clubapi_HostAddress = http://localhost:5181
+@ClubAPI_HostAddress = http://localhost:5175
 
-GET {{Clubapi_HostAddress}}/weatherforecast/
+GET {{ClubAPI_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
