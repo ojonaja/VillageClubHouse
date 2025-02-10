@@ -7,7 +7,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { LoginUserComponent } from './login-user/login-user.component';
 import { HeaderUserComponent } from './header-user/header-user.component';
 import { HomeComponent } from './home/home.component';
-import { ForgetPassComponent } from './forget-pass/forget-pass.component';
+import { RegisterUserComponent } from './register-user/register-user.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { ForgetPassComponent } from './forget-pass/forget-pass.component';
     LoginUserComponent,
     HeaderUserComponent,
     HomeComponent,
-    ForgetPassComponent
+    RegisterUserComponent
   ],
   imports: [
     BrowserModule,

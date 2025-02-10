@@ -12,5 +12,7 @@ export class LoginUserComponent {
   goHome() {
     this.router.navigate(['/home']);
   }
-
+  goReg(){
+    this.router.navigate(['/reg']);
+  }
 }
