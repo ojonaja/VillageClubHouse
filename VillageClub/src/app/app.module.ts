@@ -4,10 +4,12 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { LoginUserComponent } from './login-user/login-user.component';
-import { HeaderUserComponent } from './header-user/header-user.component';
-import { HomeComponent } from './home/home.component';
-import { RegisterUserComponent } from './register-user/register-user.component';
+import { LoginUserComponent } from './User/login-user/login-user.component';
+import { HeaderUserComponent } from './User/header-user/header-user.component';
+import { HomeComponent } from './User/home/home.component';
+import { RegisterUserComponent } from './User/register-user/register-user.component';
+import { EmployeeManageComponent } from './Admin/employee-manage/employee-manage.component';
+import { FacilityComponent } from './Admin/facility/facility.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { RegisterUserComponent } from './register-user/register-user.component';
     LoginUserComponent,
     HeaderUserComponent,
     HomeComponent,
-    RegisterUserComponent
+    RegisterUserComponent,
+    EmployeeManageComponent,
+    FacilityComponent
   ],
   imports: [
     BrowserModule,
