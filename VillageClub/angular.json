@@ -42,8 +42,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "node_modules/flowbite/dist/flowbite.min.js",
-              "https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"
+              "node_modules/flowbite/dist/flowbite.min.js"
             ],
             "server": "src/main.server.ts",
             "prerender": true,
